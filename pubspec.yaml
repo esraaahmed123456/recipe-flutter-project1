@@ -1,0 +1,24 @@
+name: recipes_app
+description: A sample recipes app using Dio, Cubit, SharedPreferences and sqflite.
+version: 1.0.0+1
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  dio: ^5.9.0
+  flutter_bloc: ^8.1.2
+  bloc: ^8.1.0
+  sqflite: ^2.2.0
+  path_provider: ^2.0.14
+  path: ^1.8.3
+  shared_preferences: ^2.1.0
+  cached_network_image: ^3.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
